@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>jQuery Mobile</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+	
+<div data-role="page">
+	<div data-role="header"  data-theme="b" style="color: white; text-shadow:white 0px 0px; background:pink">
+	
+		<a href="main.html" data-direction="reverse" style="color: gray; text-shadow:gray 0px 0px; background:white">처음</a>	
+		<h3 style="color:white;">여행 계획을 세우자</h3>
+		<a href="main.html"  data-direction="reverse" style="color: gray; text-shadow:gray 0px 0px; background:white">홈</a>	
+	</div>
+	<div data-role="content">		
+		<ul data-role="listview" data-inset="true">
+			<h3 style="background:NULL;">궁금한 것을 선택해요!</h3>
+			<li><a href="cost.html" data-rel="dialog">비용을 정하자!</a></li>
+			<li><a href="https://www.skyscanner.co.kr">비행기로 날아가!</a></li>
+			<li><a href="https://www.airbnb.co.kr">잠은 중요해</a></li>
+			<li><a href="tra.html" data-rel="dialog">뭐 타고 다녀...</a></li>
+			<li><a href="pre.html" data-rel="dialog">정말 중요한 준비물!</a></li>
+		</ul>
+	</div>
+<div data-role="footer" data-position="fixed">
+		<center><a href="minfo.html" data-direction="reverse"><h5>COPYRIGHT BENJAMIN</h5></a></center>
+	</div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>jQuery Mobile</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<style>
+   li { list-style:none; }
+  .picture { list-style:none; padding:0; margin:0; }
+  .picture li { float:left; width:50%;}
+  .picture li a {display:block; margin:5px; border: 1px }
+  .picture li img { display:block; width:50%;  height:auto;}
+  .picture li img:hover { display:block; width:100%;  height:auto;} 
+</style>
+
+</head>
+<body>
+	
+<div data-role="page">
+	<div data-role="header"  data-theme="b" style="color: white; text-shadow:white 0px 0px; background:pink">
+	
+		<a href="main.html" data-direction="reverse" style="color: gray; text-shadow:gray 0px 0px; background:white">처음</a>	
+		<h3 style="color:white;">사진~</h3>
+		<a href="main.html" data-direction="reverse" style="color: gray; text-shadow:gray 0px 0px; background:white">홈</a>	
+	</div>
+	<div data-role="content">
+            <ul class="picture">
+				<li><a href="c1.jpg" rel="external"><img src="c1.jpg" /></a></li>	
+				<li><a href="c2.jpg" rel="external"><img src="c2.jpg" /></a></li>	
+				<li><a href="c3.jpg" rel="external"><img src="c3.jpg" /></a></li>
+				<li><a href="c4.jpg" rel="external"><img src="c4.jpg" /></a></li>
+				<li><a href="c5.jpg" rel="external"><img src="c5.jpg" /></a></li>
+				<li><a href="c6.jpg" rel="external"><img src="c6.jpg" /></a></li>
+				<li><a href="c7.jpg" rel="external"><img src="c7.jpg" /></a></li>
+				<li><a href="c8.jpg" rel="external"><img src="c8.jpg" /></a></li>
+				<li><a href="c9.jpg" rel="external"><img src="c9.jpg" /></a></li>
+			<li><a href="c10.jpg" rel="external"><img src="c10.jpg" /></a></li>
+			<li><a href="c11.jpg" rel="external"><img src="c11.jpg" /></a></li>
+			<li><a href="c12.jpg" rel="external"><img src="c12.jpg" /></a></li>
+			<li><a href="c13.jpg" rel="external"><img src="c13.jpg" /></a></li>
+			<li><a href="c14.jpg" rel="external"><img src="c14.jpg" /></a></li>
+            </ul>
+		</div>
+	<div data-role="footer" data-position="fixed">
+		<center><a href="minfo.html" data-direction="reverse"><h5>COPYRIGHT BENJAMIN</h5></a></center>
+	</div>
+</div>
+
+
+</body>
+</html>

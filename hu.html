@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>jQuery Mobile</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<link rel="stylesheet" href="japan.css"/>
+<body>
+
+<div data-role="page">
+	<div data-role="header"  data-theme="b" style="color: white; text-shadow:white 0px 0px; background:pink">
+		<a href="travel1.html" data-direction="reverse" style="color: gray; text-shadow:gray 0px 0px; background:white">뒤로가기</a>	
+		<h3 style="color:white;">후쿠오카</h3>
+		<a href="main.html"  data-direction="reverse" style="color: gray; text-shadow:gray 0px 0px; background:white">홈</a>	
+	</div>
+	<div data-role="content">
+		<center>
+		<video autoplay controls preload="metadata" style="margin: 5px; width: 300px; height: 200px;">
+			<source src="후쿠오카.ogv" type="video/ogv"></source>
+			<source src="후쿠오카.mp4" type="video/mp4"></source>
+			<source src="후쿠오카.webm" type="video/webm"></source>
+			브라우저에서 비디오 파일을 지원하지 않습니다. <br/>
+		</video>
+		</center>
+		
+	</div>
+<div data-role="footer" data-position="fixed">
+		<center><a href="minfo.html" data-direction="reverse"><h5>COPYRIGHT BENJAMIN</h5></a></center>
+	</div>
+</div>
+
+</body>
+</html>
+
